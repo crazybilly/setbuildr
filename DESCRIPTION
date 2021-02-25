@@ -1,0 +1,15 @@
+Package: setbuildr
+Type: Package
+Title: Build Slides for Setlists
+Version: 0.1.0
+Author: Jake Tolbert
+Maintainer: Jake Tolbert <crazybilly@gmail.com>
+Description: a package for building setlists. Pass the file path of markdown files for songs to make_slides() to create a Slidfy presentation.
+License: GPL3 or later
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    purrr,
+    magrittr,
+    stringr
