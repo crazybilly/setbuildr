@@ -1,5 +1,5 @@
 ---
-  title: "Your Set Name"
+title: "Your Set Name"
 output:
   slidy_presentation: 
   css: reference-the-css-file-in-setbuildrs-inst-folder
