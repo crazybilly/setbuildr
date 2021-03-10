@@ -1,0 +1,25 @@
+---
+  title: "Your Set Name"
+output:
+  slidy_presentation: 
+  css: reference-the-css-file-in-setbuildrs-inst-folder
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = 'asis')
+library(setbuildr)
+```
+
+
+```{r}
+read_song('Song1-FileName.mkd')
+```
+
+```{r}
+read_song('Song2-FileName.mkd')
+```
+
+```{r}
+read_song('Song3-FileName.mkd')
+```
+
